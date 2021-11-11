@@ -103,3 +103,20 @@ header nav ul :nth-child(4) {
   height: 100px;
   margin-bottom: 30px;
 }
+
+#cta-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: cyan;
+  margin: 50px;
+  height: 400px;
+}
+
+#cta-1 .button {
+  display: inline;
+}
+
+#cta-1 .container {
+  background-color: green;
+}
