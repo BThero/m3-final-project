@@ -1,8 +1,11 @@
+@import "common.css";
+
 ul {
   list-style-type: none;
 }
 
 .navbar {
+  padding: 10;
   display: flex;
   background-color:bisque;
 }
@@ -10,6 +13,10 @@ ul {
 .row {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: bisque;
+    
 }
 
 .mainHead {
@@ -21,4 +28,31 @@ ul {
 body {
       display: flex;
       flex-direction: row;
+}
+
+.profileBox {
+    background-color: blanchedalmond;
+    height: 80px;
+    width: 50%;
+}
+
+.left {
+    background-color: blueviolet;
+    width: 50%;
+   height: 500px;
+   align-items: center;
+       padding-top: 20px;
+
+}
+
+.right {
+    background-color: aqua;
+    width: 50%;
+    height: 500px;
+    align-items: center;
+       padding: 6%;
+}
+
+.margin {
+    margin-bottom: 20px;
 }
