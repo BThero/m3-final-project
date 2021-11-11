@@ -1,1 +1,25 @@
-@import "common.css"
+@import "common.css";
+
+header {
+  height: 120px;
+  background-color: green;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+header .logo {
+  height: 50%;
+  width: 20%;
+  background-color: pink;
+  margin: auto;
+}
+
+header nav {
+  height: 50%;
+  width: 70%;
+  background-color: blue;
+  margin: auto;
+}
+
+
