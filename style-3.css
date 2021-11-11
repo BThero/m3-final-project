@@ -1,1 +1,24 @@
-@import "common.css"
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  background-color:bisque;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainHead {
+  height: 150px;
+  width: 100%;
+  background-color: salmon;
+}
+
+body {
+      display: flex;
+      flex-direction: row;
+}
