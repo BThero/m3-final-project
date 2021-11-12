@@ -3,6 +3,30 @@
 body {
   display: flex;
   flex-direction: row;
+  height: 1500px;
+  /* background-color: red; */
+  padding: 40px;
+}
+
+nav, main, article, div, ul, section {
+  position: relative;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+nav {
+  background-color: green;
+  width: 15%;
+}
+
+main {
+  background-color: yellow;
+  width: 55%;
+}
+
+article {
+  background-color: purple;
+  width: 15%;
 }
 
 .nav-second-page-container {
@@ -17,4 +41,40 @@ body {
 
 #header {
   padding: 30%;
+}
+
+div {
+  background-color: green;
+}
+
+main .headers-list {
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main .balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  background-color: red;
+}
+
+main .heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 200px;
+  background-color: orange;
+}
+
+main .categories {
+  background-color: gray;
+}
+
+main .text-wrapper {
+  background-color: purple;
+  padding: 0;
 }
