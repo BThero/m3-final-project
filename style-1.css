@@ -264,3 +264,21 @@ header nav ul :nth-child(4) {
   display: inline;
   background-color: cyan;
 }
+
+#cta-2 {
+  padding: 40px;
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+}
+
+#cta-2 .content {
+  background-color: green;
+  padding: 30px;
+  width: 60%;
+}
+
+#cta-2 .content .buttons {
+  background-color: red;
+  padding: 30px;
+}
