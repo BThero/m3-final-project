@@ -8,6 +8,14 @@ header {
   flex-direction: row;
 }
 
+div, section, ul, li {
+  position: relative;
+}
+
+div, section, ul {
+  padding-top: 30px;
+}
+
 header .logo {
   height: 50%;
   width: 20%;
@@ -196,4 +204,35 @@ header nav ul :nth-child(4) {
 #features-2 .text ul li {
   background-color: white;
   border: 3px solid black;
+}
+
+#pricing {
+  height: 800px;
+  background-color: orange;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+#pricing .heading {
+  padding: 30px;
+  background-color: green;
+  width: 25%;
+}
+
+#pricing .content {
+  width: 25%;
+  background-color: red;
+  padding-top: 30px;
+}
+
+#pricing .content ul {
+  background-color: purple;
+}
+
+#pricing .content ul li {
+  background-color: cyan;
+  border: 2px solid black;
 }
