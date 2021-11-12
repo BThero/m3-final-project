@@ -236,3 +236,31 @@ header nav ul :nth-child(4) {
   background-color: cyan;
   border: 2px solid black;
 }
+
+#quote {
+  height: 600px;
+  background-color: purple;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+#quote .content {
+  width: 70%;
+  background-color: green;
+  padding: 30px;
+}
+
+#quote .content > * {
+  margin-bottom: 20px;
+}
+
+#quote .content ul {
+  width: 70%;
+  background-color: red;
+}
+
+#quote .content ul li {
+  display: inline;
+  background-color: cyan;
+}
