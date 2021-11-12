@@ -8,7 +8,7 @@ header {
   flex-direction: row;
 }
 
-div, section, ul, li {
+header, div, section, ul, li, footer {
   position: relative;
 }
 
@@ -282,3 +282,61 @@ header nav ul :nth-child(4) {
   background-color: red;
   padding: 30px;
 }
+
+footer {
+  height: 700px;
+  background-color: magenta;
+  padding: 40px;
+}
+
+footer .newsletter {
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+footer .newsletter .text-wrapper {
+  background-color: green;
+}
+
+footer .newsletter .user {
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+
+footer nav {
+  background-color: cyan;
+  padding: 40px;
+}
+
+footer nav table {
+  padding: 30px;
+  width: 100%;
+} 
+
+footer nav table tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer nav table td, footer nav table th {
+  width: 100px;
+  background-color: white;
+}
+
+footer .legal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: red;
+  padding: 40px;
+}
+
+footer .legal .logo {
+  background-color: yellowgreen;
+}
+
