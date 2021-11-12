@@ -154,3 +154,46 @@ header nav ul :nth-child(4) {
 #cta-1 .container {
   background-color: green;
 }
+
+#features-2 {
+  height: 800px;
+  background-color: yellow;
+  padding: 50px;
+  align-items: left;
+}
+
+#features-2 .heading {
+  height: 30%;
+  width: 60%;
+  background-color: green;  
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+#features-2 .heading > * {
+  text-align: left;
+}
+
+#features-2 .content {
+  height: 70%;
+  width: 90%;
+  background-color: cyan;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+#features-2 .text {
+  width: 40%;
+  background-color: red;
+}
+
+#features-2 .text ul {
+  padding: 30px;
+}
+
+#features-2 .text ul li {
+  background-color: white;
+  border: 3px solid black;
+}
