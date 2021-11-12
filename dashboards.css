@@ -35,7 +35,7 @@ article {
   background-color: cyan;
 }
 
-.nav-second-page-container > :nth-child(7) {
+.nav-second-page-container > :nth-child(8) {
   margin-bottom: 200px;
 }
 
@@ -76,5 +76,15 @@ main .categories {
 
 main .text-wrapper {
   background-color: purple;
-  padding: 0;
+  padding: 20px;
+}
+
+main .transaction-history {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main .transaction-history .buttons {
+  background-color: blueviolet;
 }
