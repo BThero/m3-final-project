@@ -62,7 +62,7 @@ header nav ul :nth-child(4) {
   background-color: burlywood;
 }
 
-#hero-header > .img {
+#hero-header > img {
   padding-top: 7%;
 }
 
@@ -86,17 +86,20 @@ header nav ul :nth-child(4) {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: red;
 }
 
 #social-proof #text {
   width: 50%;
   background-color: blue;
+  margin-top: 5%;
 }
 
-.imag-container {
+#social-proof .imag-container {
   display: flex;
-  width: 100%;
-  padding: 10% 0 0 10%;
+  width: 80%;
+  padding: 2% 0 2% 0;
+  margin-bottom: 5%;
   justify-content: space-between;
   background-color: darkcyan;
 }
@@ -112,7 +115,18 @@ header nav ul :nth-child(4) {
 
 #features-1 > * {
   width: 25%;
+}
+
+#features-1 > .heading {
   background-color: red;
+}
+
+#features-1 > .content-1 {
+  background-color: yellow;
+}
+
+#features-1 > .content-2 {
+  background-color: gray;
 }
 
 #features-1 .text-container {
