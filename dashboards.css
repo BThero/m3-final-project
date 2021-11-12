@@ -1,2 +1,20 @@
-@import "common.css"
+@import "common.css";
 
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-second-page-container {
+  display: flex;
+  flex-direction: column;
+  background-color: cyan;
+}
+
+.nav-second-page-container > :nth-child(7) {
+  margin-bottom: 200px;
+}
+
+#header {
+  padding: 30%;
+}
