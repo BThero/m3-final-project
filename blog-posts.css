@@ -21,10 +21,6 @@ header .logo {
   background-color: pink;
 }
 
-header .logo * {
-  display: inline;
-}
-
 header nav {
   width: 70%;
   background-color: blue;
@@ -197,10 +193,6 @@ header nav ul li {
   background-color: violet;
 }
 
-#features-2 .text ul li a p {
-  display: inline;
-}
-
 #pricing {
   background-color: orange;
   padding: 40px;
@@ -228,10 +220,6 @@ header nav ul li {
   background-color: cyan;
   border: 2px solid black;
   padding: 30px;
-}
-
-#pricing .content ul li p {
-  display: inline;
 }
 
 #quote {
@@ -336,9 +324,5 @@ footer .legal {
 footer .legal .logo {
   background-color: yellowgreen;
   width: 20%;
-}
-
-footer .legal .logo * {
-  display: inline;
 }
 
