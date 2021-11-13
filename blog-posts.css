@@ -8,7 +8,7 @@ header {
   flex-direction: row;
 }
 
-header, div, section, ul, li, footer {
+header, div, section, ul, li, footer, nav {
   position: relative;
 }
 
@@ -48,6 +48,12 @@ header nav ul :nth-child(4) {
 #hero-header {
   height: 500px;
   background-color: magenta;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #hero-header .text {
@@ -56,6 +62,7 @@ header nav ul :nth-child(4) {
   flex-direction: column;
   align-items: center;
   padding-top: 5%;
+  background-color: yellow;
 }
 
 #hero-header .button {
@@ -74,21 +81,6 @@ header nav ul :nth-child(4) {
   padding-top: 7%;
 }
 
-#hero-header .text-1 {
-  width: 6%;
-  background-color: cyan;
-}
-
-#hero-header .text-2 {
-  width: 30%;
-  background-color: green;
-}
-
-#hero-header .text-3 {
-  width: 6%;
-  background-color: orange;
-}
-
 #social-proof {
   display: flex;
   justify-content: center;
@@ -97,19 +89,17 @@ header nav ul :nth-child(4) {
   background-color: red;
 }
 
-#social-proof #text {
-  width: 50%;
-  background-color: blue;
-  margin-top: 5%;
-}
-
-#social-proof .imag-container {
+#social-proof .images {
   display: flex;
   width: 80%;
   padding: 2% 0 2% 0;
   margin-bottom: 5%;
   justify-content: space-between;
   background-color: darkcyan;
+}
+
+#social-proof .images li {
+  border: 3px solid black;
 }
 
 #features-1 {
@@ -121,28 +111,25 @@ header nav ul :nth-child(4) {
   align-items: center;
 }
 
-#features-1 > * {
+#features-1 > ul {
   width: 25%;
 }
 
-#features-1 > .heading {
+#features-1 .heading {
   background-color: red;
+  padding: 40px;
 }
 
-#features-1 > .content-1 {
+#features-1 .content-1 {
   background-color: yellow;
 }
 
-#features-1 > .content-2 {
+#features-1 .content-2 {
   background-color: gray;
 }
 
-#features-1 .text-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+#features-1 .content li {
   background-color: pink;
-  height: 100px;
   margin-bottom: 30px;
 }
 
