@@ -1,11 +1,11 @@
 @import "common.css";
 
 header {
-  height: 180px;
   background-color: green;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  padding: 40px;
 }
 
 header, div, section, ul, li, footer, nav {
@@ -17,10 +17,8 @@ div, section, ul {
 }
 
 header .logo {
-  height: 50%;
   width: 20%;
   background-color: pink;
-  margin: auto;
 }
 
 header .logo * {
@@ -46,7 +44,6 @@ header nav ul :nth-child(4) {
 }
 
 #hero-header {
-  height: 500px;
   background-color: magenta;
   padding: 40px;
   display: flex;
@@ -138,7 +135,6 @@ header nav ul :nth-child(4) {
   justify-content: space-around;
   align-items: center;
   background-color: cyan;
-  margin: 50px;
   height: 400px;
 }
 
@@ -148,6 +144,11 @@ header nav ul :nth-child(4) {
 
 #cta-1 .container {
   background-color: green;
+  padding: 40px;
+}
+
+#cta-1 .container .buttons {
+  background-color: orange;
 }
 
 #features-2 {
@@ -158,11 +159,9 @@ header nav ul :nth-child(4) {
 }
 
 #features-2 .heading {
-  height: 30%;
-  width: 60%;
   background-color: green;  
-  margin-bottom: 50px;
-  padding: 30px;
+  margin-bottom: 20px;
+  padding: 40px;
 }
 
 #features-2 .heading > * {
@@ -170,8 +169,6 @@ header nav ul :nth-child(4) {
 }
 
 #features-2 .content {
-  height: 70%;
-  width: 90%;
   background-color: cyan;
   display: flex;
   flex-direction: row;
@@ -193,10 +190,17 @@ header nav ul :nth-child(4) {
   border: 3px solid black;
 }
 
+#features-2 .text ul li a {
+  background-color: violet;
+}
+
+#features-2 .text ul li a p {
+  display: inline;
+}
+
 #pricing {
-  height: 800px;
   background-color: orange;
-  padding: 30px;
+  padding: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -204,15 +208,13 @@ header nav ul :nth-child(4) {
 }
 
 #pricing .heading {
-  padding: 30px;
+  padding: 40px;
   background-color: green;
-  width: 25%;
 }
 
 #pricing .content {
-  width: 25%;
   background-color: red;
-  padding-top: 30px;
+  padding: 40px;
 }
 
 #pricing .content ul {
@@ -222,10 +224,15 @@ header nav ul :nth-child(4) {
 #pricing .content ul li {
   background-color: cyan;
   border: 2px solid black;
+  padding: 30px;
+}
+
+#pricing .content ul li p {
+  display: inline;
 }
 
 #quote {
-  height: 600px;
+  height: 400px;
   background-color: purple;
   padding: 40px;
   display: flex;
@@ -233,18 +240,18 @@ header nav ul :nth-child(4) {
 }
 
 #quote .content {
-  width: 70%;
   background-color: green;
-  padding: 30px;
-}
-
-#quote .content > * {
-  margin-bottom: 20px;
+  padding: 40px;
+  width: 60%;
 }
 
 #quote .content ul {
-  width: 70%;
   background-color: red;
+  padding: 40px;
+}
+
+#quote .content, #quote .content > * {
+  text-align: left;
 }
 
 #quote .content ul li {
@@ -271,7 +278,7 @@ header nav ul :nth-child(4) {
 }
 
 footer {
-  height: 700px;
+  /* height: 700px; */
   background-color: magenta;
   padding: 40px;
 }
@@ -325,5 +332,10 @@ footer .legal {
 
 footer .legal .logo {
   background-color: yellowgreen;
+  width: 20%;
+}
+
+footer .legal .logo * {
+  display: inline;
 }
 
