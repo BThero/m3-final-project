@@ -88,8 +88,7 @@ main #transaction-history td {
   border: 3px solid black;
 }
 
-main #transaction-history tfoot tr {
-  justify-content: center;
+main #transaction-history tfoot {
   align-items: center;
   background-color: lightgreen;
 }
