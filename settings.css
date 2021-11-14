@@ -5,10 +5,15 @@ ul {
 }
 
 .navbar {
-  padding: 10;
-  display: flex;
-  background-color:bisque;
-  width: 250px;
+  height: 100%;
+  width: 110px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: bisque;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
 .row {
