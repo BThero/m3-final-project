@@ -68,6 +68,11 @@ body {
     margin-bottom: 20px;
 }
 
+.second {
+
+    background-color: aqua;
+}
+
 .secondVer {
   width: 20%
 }
