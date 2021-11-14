@@ -3,20 +3,29 @@
 body {
   display: flex;
   flex-direction: row;
-  height: 1500px;
+  align-items: flex-start;
+  /* height: 1500px; */
   /* background-color: red; */
-  padding: 40px;
 }
 
 nav, main, article, div, ul, section {
   position: relative;
   padding-top: 40px;
-  padding-left: 20px;
 }
 
 nav {
   background-color: green;
-  width: 15%;
+  padding: 30px;
+}
+
+nav .top {
+  background-color: cyan;
+  padding: 30px;
+}
+
+nav .bottom {
+  background-color: lightsteelblue;
+  padding: 30px;
 }
 
 main {
@@ -27,16 +36,6 @@ main {
 article {
   background-color: purple;
   width: 15%;
-}
-
-.nav-second-page-container {
-  display: flex;
-  flex-direction: column;
-  background-color: cyan;
-}
-
-.nav-second-page-container > :nth-child(8) {
-  margin-bottom: 200px;
 }
 
 #header {
