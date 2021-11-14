@@ -107,26 +107,26 @@ header nav ul li {
   align-items: center;
 }
 
-#features-1 > ul {
-  width: 25%;
-}
-
 #features-1 .heading {
-  background-color: red;
-  padding: 40px;
+  background-color: bisque;
+  width: 100%;
+  height: 400px
 }
 
-#features-1 .content-1 {
-  background-color: yellow;
+#features-1 > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
+  margin-left: 20px;
 }
 
-#features-1 .content-2 {
-  background-color: gray;
-}
 
 #features-1 .content li {
   background-color: pink;
+  padding-top: 40px;
   margin-bottom: 30px;
+  max-width: 50%;
 }
 
 #cta-1 {
@@ -161,36 +161,31 @@ header nav ul li {
   background-color: green;  
   margin-bottom: 20px;
   padding: 40px;
-}
-
-#features-2 .heading > * {
   text-align: left;
 }
 
+
 #features-2 .content {
-  background-color: cyan;
+  background-color: rgb(129, 250, 250);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 40px;
+  margin-bottom: 40px;
 }
 
-#features-2 .text {
-  width: 40%;
-  background-color: red;
+#features-2 .content ul {
+  background-color: rgb(125, 125, 255);
+  width: 50%;
+  padding: 20px;
 }
 
-#features-2 .text ul {
-  padding: 30px;
-}
-
-#features-2 .text ul li {
-  background-color: white;
-  border: 3px solid black;
-}
-
-#features-2 .text ul li a {
-  background-color: violet;
+#features-2 .content li {
+  background-color: darkkhaki;
+  margin: 20px;
+  padding-top: 30px;
+  align-items: left;
+  text-align: left;
 }
 
 #pricing {
@@ -205,49 +200,57 @@ header nav ul li {
 #pricing .heading {
   padding: 40px;
   background-color: green;
+  width: 30% ;
 }
 
-#pricing .content {
-  background-color: red;
+#pricing .card-container {
+  background-color: rgb(177, 245, 20);
   padding: 40px;
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-#pricing .content ul {
-  background-color: purple;
-}
-
-#pricing .content ul li {
-  background-color: cyan;
-  border: 2px solid black;
+#pricing .card {
+  background-color: rgb(245, 170, 245);
+  margin: 20px;
+  width: 100%;
   padding: 30px;
+  align-items: center;
+}
+
+#pricing .card ul{
+  background-color: cyan;
+  padding: 30px;
+}
+
+#pricing .card li{
+  background-color: darksalmon;
+  margin-bottom: 10px;
 }
 
 #quote {
   height: 400px;
-  background-color: purple;
+  background-color: rgb(206, 127, 206);
   padding: 40px;
   display: flex;
   flex-direction: row;
 }
 
 #quote .content {
-  background-color: green;
+  background-color: rgb(181, 206, 92);
   padding: 40px;
   width: 60%;
 }
 
 #quote .content ul {
-  background-color: red;
+  background-color: rgb(216, 113, 113);
+ 
   padding: 40px;
-}
-
-#quote .content, #quote .content > * {
-  text-align: left;
 }
 
 #quote .content ul li {
   display: inline;
-  background-color: cyan;
 }
 
 #cta-2 {
@@ -264,8 +267,12 @@ header nav ul li {
 }
 
 #cta-2 .content .buttons {
-  background-color: red;
-  padding: 30px;
+  background-color: gold;
+  
+}
+
+#cta-2 .content .buttons a {
+  background-color: rgb(55, 121, 243);
 }
 
 footer {
@@ -292,25 +299,17 @@ footer .newsletter .user {
   align-items: center;
 }
 
-footer nav {
+.footer-nav {
   background-color: cyan;
   padding: 40px;
-}
-
-footer nav table {
-  padding: 30px;
-  width: 100%;
-} 
-
-footer nav table tr {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-footer nav table td, footer nav table th {
-  width: 100px;
-  background-color: white;
+.nav-column {
+  display: flex;
+  background-color: indianred;
+  text-align: left;
 }
 
 footer .legal {
