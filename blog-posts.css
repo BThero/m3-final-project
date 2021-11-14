@@ -1,5 +1,8 @@
 @import "common.css";
-
+*{
+  text-align: left;
+  
+}
 header {
   background-color: green;
   display: flex;
