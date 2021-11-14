@@ -4,86 +4,92 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  /* height: 1500px; */
-  /* background-color: red; */
 }
 
-nav, main, article, div, ul, section {
+nav, main, article, div, ul, section, header, table {
   position: relative;
   padding-top: 40px;
 }
 
 nav {
   background-color: green;
+  padding: 40px;
+}
+
+nav ul {
   padding: 30px;
+  white-space: nowrap;
 }
 
 nav .top {
   background-color: cyan;
-  padding: 30px;
 }
 
 nav .bottom {
   background-color: lightsteelblue;
-  padding: 30px;
 }
 
 main {
   background-color: yellow;
-  width: 55%;
+  padding: 40px;
 }
 
-article {
-  background-color: purple;
-  width: 15%;
-}
-
-#header {
-  padding: 30%;
-}
-
-div {
-  background-color: green;
-}
-
-main .headers-list {
-  background-color: pink;
+main #heading {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-main .balance {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: center;
-  background-color: red;
-}
-
-main .heading {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 200px;
   background-color: orange;
+  padding: 40px;
 }
 
-main .categories {
+main #heading .text-wrapper {
+  background-color: purple;
+  padding: 40px;
+}
+
+main #heading .balance {
+  background-color: pink;
+}
+
+main #heading .buttons {
   background-color: gray;
 }
 
-main .text-wrapper {
-  background-color: purple;
-  padding: 20px;
+main #transaction-history {
+  background-color: yellowgreen;
+  padding: 40px;
 }
 
-main .transaction-history {
+main #transaction-history header {
+  background-color: lightgray;
   display: flex;
-  flex-direction: row;
+  padding: 30px;
   justify-content: space-between;
 }
 
-main .transaction-history .buttons {
-  background-color: blueviolet;
+main #transaction-history header .buttons {
+  background-color: peru;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+main #transaction-history table {
+  border: 3px solid black;
+  background-color: lightgreen;
+  padding: 30px;
+}
+
+main #transaction-history th {
+  background-color: lightcoral;
+  border: 3px solid black;
+}
+
+main #transaction-history td {
+  background-color: lightcyan;
+  border: 3px solid black;
+}
+
+main #transaction-history tfoot tr {
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
 }
