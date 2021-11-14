@@ -92,3 +92,73 @@ main #transaction-history tfoot {
   align-items: center;
   background-color: lightgreen;
 }
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  background-color: lightgoldenrodyellow;
+}
+
+.pagination .previous, .pagination .next {
+  background-color: lightsalmon;
+}
+
+.pagination ul {
+  background-color: lightseagreen;
+}
+
+.pagination li {
+  display: inline;
+  border: 1px solid black;
+}
+
+#side-panel {
+  padding: 40px;
+  background-color: lightcoral;
+  white-space: nowrap;
+}
+
+#side-panel > header {
+  padding: 40px;
+  background-color: lightgoldenrodyellow; 
+}
+
+#side-panel > header .account {
+  padding: 40px;
+  background-color: lightgreen;
+}
+
+#side-panel .cards header {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
+}
+
+#side-panel .cards {
+  padding: 40px;
+  background-color: lightcyan;
+}
+
+#side-panel .budgets header {
+  background-color: darkcyan;
+  display: flex;
+  justify-content: space-between;
+}
+
+#side-panel .budgets ul {
+  background-color: lightgreen;
+}
+
+#side-panel .budgets li {
+  display: flex;
+  border: 3px solid black;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+}
+
+#side-panel .budgets li .wrapper {
+  background-color: lightsalmon;
+  border: 3px solid black;
+}
