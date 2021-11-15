@@ -140,6 +140,11 @@ main #transaction-history tfoot {
   background-color: lightcyan;
 }
 
+#side-panel .budgets {
+  background-color: tan;
+  padding: 40px;
+}
+
 #side-panel .budgets header {
   background-color: darkcyan;
   display: flex;
