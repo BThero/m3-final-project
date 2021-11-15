@@ -36,7 +36,6 @@ ul {
 }
 
 .mainHead {
-
   height: 150px;
   width: 100%;
   background-color: salmon;
@@ -61,7 +60,6 @@ body {
     height: 500px;
     align-items: center;
     padding-top: 20px;
-
 }
 
 .right {
