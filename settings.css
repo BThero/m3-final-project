@@ -59,12 +59,13 @@ body {
 .right {
     background-color: aqua;
     width: 50%;
-    height: 500px;
+    height: 700px;
     align-items: center;
     padding: 6%;
 }
 
 .margin {
+  margin-top: 30px;
     margin-bottom: 20px;
 }
 
