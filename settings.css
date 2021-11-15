@@ -4,8 +4,11 @@ ul {
   list-style-type: none;
 }
 
-.navbar {
+nav {
   display: flex;
+}
+
+.navbar {
   justify-content: center;
   height: 100%;
   width: 350px;
@@ -16,6 +19,10 @@ ul {
   background-color: bisque;
   overflow-x: hidden;
   padding-top: 20px;
+}
+
+.navbar .bottom {
+  margin-top: 300px;
 }
 
 .row {
@@ -87,7 +94,7 @@ body {
   margin-top: 500px;
 }
 
-.spaceTopTwo: {
+.spaceTopTwo {
   margin-top: 10px;
 }
 
