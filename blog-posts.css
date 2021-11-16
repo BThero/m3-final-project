@@ -1,9 +1,18 @@
 @import "common.css";
-*{
-  text-align: left;
-  
+
+* {
+  text-align: left;  
 }
-header {
+
+header, div, section, ul, li, footer, nav, article {
+  position: relative;
+}
+
+header, div, section, ul, article {
+  padding-top: 30px;
+}
+
+body > header {
   background-color: green;
   display: flex;
   justify-content: space-around;
@@ -11,22 +20,14 @@ header {
   padding: 40px;
 }
 
-header, div, section, ul, li, footer, nav {
-  position: relative;
-}
-
-div, section, ul {
-  padding-top: 30px;
-}
-
-header .logo {
+body > header .logo {
   width: 20%;
   background-color: pink;
 }
 
-header nav {
+body > header nav {
   width: 70%;
-  background-color: blue;
+  background-color: lightcoral;
   margin: auto;
   padding: 40px;
   display: flex;
@@ -35,11 +36,11 @@ header nav {
   align-items: center;
 }
 
-header nav ul {
+body > header nav ul {
   background-color: lightgreen;
 }
 
-header nav ul li {
+body > header nav ul li {
   display: inline;
   background-color: yellow;
   border: 3px solid black;
@@ -110,10 +111,10 @@ header nav ul li {
   align-items: center;
 }
 
-#features-1 .heading {
+#features-1 header {
   background-color: bisque;
   width: 100%;
-  height: 400px
+  height: 400px;
 }
 
 #features-1 > ul {
@@ -123,7 +124,6 @@ header nav ul li {
   background-color: cadetblue;
   margin-left: 20px;
 }
-
 
 #features-1 .content li {
   background-color: pink;
@@ -160,13 +160,12 @@ header nav ul li {
   align-items: left;
 }
 
-#features-2 .heading {
+#features-2 header {
   background-color: green;  
   margin-bottom: 20px;
   padding: 40px;
   text-align: left;
 }
-
 
 #features-2 .content {
   background-color: rgb(129, 250, 250);
@@ -200,7 +199,7 @@ header nav ul li {
   /* align-items: center; */
 }
 
-#pricing .heading {
+#pricing header {
   padding: 40px;
   background-color: green;
   width: 30% ;
@@ -256,9 +255,13 @@ header nav ul li {
   display: inline;
 }
 
+#quote .dots {
+  background-color: lightgray;
+}
+
 #cta-2 {
   padding: 40px;
-  background-color: orange;
+  background-color: lightsalmon;
   display: flex;
   flex-direction: row;
 }
@@ -270,7 +273,7 @@ header nav ul li {
 }
 
 #cta-2 .content .buttons {
-  background-color: gold;
+  background-color: lightgreen;
   
 }
 
@@ -310,7 +313,6 @@ footer .newsletter .user {
 }
 
 .nav-column {
-  display: flex;
   background-color: indianred;
   text-align: left;
 }
